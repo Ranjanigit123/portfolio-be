@@ -236,8 +236,8 @@ app.use((error, req, res, next) => {
 // Start server
 app.listen(PORT, () => {
   console.log(`🚀 Portfolio backend server is running on port ${PORT}`);
-  console.log(`📊 Health check: http://localhost:${PORT}/health`);
-  console.log(`🔗 API test: http://localhost:${PORT}/api/test`);
+  console.log(`📊 Health check: https://portfolio-be-5rqa.onrender.com/health`);
+  console.log(`🔗 API test: https://portfolio-be-5rqa.onrender.com/api/test`);
 });
 
 module.exports = app;
